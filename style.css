@@ -1,0 +1,67 @@
+h1{
+    color: black;
+    font-weight: bold;
+    font-family: "Comic Sans, MC, sans serif";
+    text-align: center;
+    font-size: 80px;
+}
+
+body{
+    background: linear-gradient(grey 0%,lightblue 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); 
+    padding: 12px 16px;
+    z-index: 0.5;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Bigger and styled button */
+button {
+  padding: 16px 32px;
+  background-color: #3498db;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#hidden-image {
+  text-align: center;
+  margin-top: 20px;
+}
